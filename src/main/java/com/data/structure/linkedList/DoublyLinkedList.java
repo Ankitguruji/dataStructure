@@ -73,16 +73,18 @@ public class DoublyLinkedList {
 
 			
 			 // Method to add node at the end finalDoubleNode =
-			 addNodeAtTheEnd(finalDoubleNode, 27);
-			  System.out.println("Doubly Linked list data added at last " + 27);
+				/*
+				 * addNodeAtTheEnd(finalDoubleNode, 27);
+				 * System.out.println("Doubly Linked list data added at last " + 27);
+				 */
 			 
 
-			/*
-			 * // Method to traverse node till header finalDoubleNode =
-			 * findHeader(finalDoubleNode);
-			 * System.out.println("Doubly List traversed to header with node data as " +
-			 * finalDoubleNode.getData());
-			 */
+			
+			  // Method to traverse node till header finalDoubleNode =
+			  findHeader(finalDoubleNode);
+			  System.out.println("Doubly List traversed to header with node data as " +
+			  finalDoubleNode.getData());
+			 
 
 			// Method to add node at the start
 			//addNodeAtTheFront(finalDoubleNode, 29);
