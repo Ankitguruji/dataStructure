@@ -71,11 +71,11 @@ public class DoublyLinkedList {
 			testList.add(13);
 			finalDoubleNode = addNode(testList);
 
-			/*
-			 * // Method to add node at the end finalDoubleNode =
-			 * addNodeAtTheEnd(finalDoubleNode, 27);
-			 * System.out.println("Doubly Linked list data added at last " + 27);
-			 */
+			
+			 // Method to add node at the end finalDoubleNode =
+			 addNodeAtTheEnd(finalDoubleNode, 27);
+			  System.out.println("Doubly Linked list data added at last " + 27);
+			 
 
 			/*
 			 * // Method to traverse node till header finalDoubleNode =
@@ -85,7 +85,7 @@ public class DoublyLinkedList {
 			 */
 
 			// Method to add node at the start
-			addNodeAtTheFront(finalDoubleNode, 29);
+			//addNodeAtTheFront(finalDoubleNode, 29);
 
 		} catch (Exception e) {
 			e.printStackTrace();
